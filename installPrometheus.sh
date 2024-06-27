@@ -1,3 +1,5 @@
+sudo systemctl enable grafana-server.service
+
 sudo useradd --no-create-home --shell /bin/false prometheus
 sudo mkdir /etc/prometheus /var/lib/prometheus
 sudo chown prometheus:prometheus /etc/prometheus
