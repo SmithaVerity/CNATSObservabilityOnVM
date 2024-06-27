@@ -4,18 +4,18 @@ create ec2
 
 connect using putty
 
-``
-git clone 
-cd 
+```
+git clone https://github.com/SmithaVerity/CNATSObservabilityOnVM.git
+cd CNATSObservabilityOnVM/
 sh installGrafana.sh
-``
+```
 open port 3000 and 9090
 
 access grafana
 
-``
+```
 sh installPrometheus.sh
-``
+```
 
 change localhost to ip address
 
