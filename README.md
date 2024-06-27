@@ -1,20 +1,27 @@
-# CNATSObservabilityOnVM
+# Observability Testing on EC2 Instance using Grafana and Prometheus
 
 create ec2
+
 connect using putty
+
+``
 git clone 
 cd 
-sh install grafana
-
+sh installGrafana.sh
+``
 open port 3000 and 9090
 
 access grafana
 
-run install prometheus
+``
+sh installPrometheus.sh
+``
+
 change localhost to ip address
 
-run start prometheus
-
+```
+sh startPrometheus.sh
+```
 access prometheus
 
 log in to grafana
